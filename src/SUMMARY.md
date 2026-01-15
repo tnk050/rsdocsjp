@@ -6,6 +6,6 @@
 
 # リファレンス
 
+- [std::boxed](./boxed/about.md)
 - [std::vec](./vec/about.md)
-    - [Drain](./vec/Drain.md)
-
+  - [Drain](./vec/Drain.md)

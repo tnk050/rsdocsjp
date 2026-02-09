@@ -8,7 +8,7 @@ Rust 1.0.0 ~
 
 `Box<T>`はヒープアロケーションに分類される。
 
-[`Box<T>`](https://doc.rust-lang.org/std/boxed/struct.Box.html)(単に‘Box’と呼ばれることもある)はRustにおいて一番単純なヒープアロケーションである。Boxはこのアロケーションの所有権を有し、スコープから外れる時に中身を破棄する。加えて、ヒープの割り当てが`isize::MAX`バイトを超えないことも保証する。
+[`Box<T>`](https://doc.rust-lang.org/std/boxed/struct.Box.html)(単に ‘Box’ と呼ばれることもある)はRustにおいて一番単純なヒープアロケーションである。Boxはこのアロケーションの所有権を有し、スコープから外れる時に中身を破棄する。加えて、ヒープの割り当てが`isize::MAX`バイトを超えないことも保証する。
 
 ## 例
 
